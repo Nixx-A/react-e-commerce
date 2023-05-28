@@ -1,0 +1,14 @@
+.grid-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  width: 100%;
+  justify-content: center;
+  place-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.shadow-box {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
